@@ -8,7 +8,7 @@ import NavigationBar from './Customer/navigationBar'
 import MainPage from './Customer/mainPage'
 import RegisterUser from './Customer/registerUser'
 import SubCategory from './Customer/subCategoryProducts'
-// used to register react-toastify
+// conflict 
 // import { useEffect } from 'react'
 // import { ToastContainer } from 'react-toastify'
 // import 'react-toastify/dist/ReactToastify.css'
