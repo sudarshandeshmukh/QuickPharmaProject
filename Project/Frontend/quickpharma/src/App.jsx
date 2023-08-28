@@ -9,6 +9,8 @@ import MainPage from './Customer/mainPage'
 import RegisterUser from './Customer/registerUser'
 import SubCategory from './Customer/subCategoryProducts'
 // used to register react-toastify
+
+// Testing Git
 import { useEffect } from 'react'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
@@ -17,9 +19,6 @@ import Navbar from './Customer/SubCatnavbar'
 import Footer from './Customer/footer'
 import Profile from './Customer/Profile'
 import Product from './Customer/Product'
-
-
-
 
 function App() {
   // use selector accepts a function which passes the store global state
