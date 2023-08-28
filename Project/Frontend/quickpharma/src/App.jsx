@@ -9,7 +9,14 @@ import MainPage from './Customer/mainPage'
 import RegisterUser from './Customer/registerUser'
 import SubCategory from './Customer/subCategoryProducts'
 // used to register react-toastify
-
+// import { useEffect } from 'react'
+// import { ToastContainer } from 'react-toastify'
+// import 'react-toastify/dist/ReactToastify.css'
+// import { login } from './features/authSlice'
+// import Navbar from './Customer/SubCatnavbar'
+// import Footer from './Customer/footer'
+// import Profile from './Customer/Profile'
+// import Product from './Customer/Product'
 // Testing Git
 import { useEffect } from 'react'
 import { ToastContainer } from 'react-toastify'
@@ -21,8 +28,6 @@ import Profile from './Customer/Profile'
 import Product from './Customer/Product'
 
 function App() {
-  // use selector accepts a function which passes the store global state
-  // at the moment we are interested only in auth slice
   const loginStatus = useSelector((state) => state.auth.status)
   const dispatch = useDispatch()
 
@@ -71,7 +76,6 @@ function App() {
           <Route path='/cart' element={<Cart />} />
 
           {/* <Route path='/cart' element={<Cart1 />} /> */}
-
 
           {/* footer */}
           <Route path='/footer' element={<Footer />} />
